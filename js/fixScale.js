@@ -1,7 +1,7 @@
 /*
   JavaScript file for scale fixing in the LiteLeaf template
   Copyright (C) Jon Wyble
-  Available under the Creative Commons Attribution 4.0 International license
+  Available under the MIT License
 */
 
 var i;
