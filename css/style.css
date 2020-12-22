@@ -1,0 +1,315 @@
+/*
+  Main stylesheet for the LiteLeaf template
+  Copyright (C) Jon Wyble
+  Available under the Creative Commons Attribution 4.0 International license
+*/
+
+body {
+	width: 990px;
+	padding: 20px 0;
+	margin: 0 auto;
+	background-image: url(../img/bg.png);
+	line-height: 1.5
+}
+
+#top {
+	padding: 0.9rem 1rem;
+	background: linear-gradient(#0070C0, #00B0F0);
+}
+
+.logo {
+	padding-bottom: 5px;
+	font-family: Times New Roman;
+	font-size: 35px;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 2px 2px 2px #000000;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.slogan {
+	padding-top: 5px;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFFF;
+	text-align: center;
+	opacity: 0.99;
+}
+
+.navbar {
+	position: relative;
+	display: flex;
+	padding: 0.5rem 1rem;
+	align-items: center;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.navbar-header {
+	background: linear-gradient(#00183E, #012255, #00183E);
+}
+
+ul.navmenu {
+	margin: 0;
+}
+
+li#navtext {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a.navtext {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	opacity: 0.85;
+}
+
+a.navtext:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	opacity: 0.99;
+}
+
+a.navtext:active {
+	color: #FFFFFF;
+	text-decoration: none;
+	opacity: 0.99;
+}
+
+*::before {
+	box-sizing: border-box;
+}
+
+*::after {
+	box-sizing: border-box;
+}
+
+h1 {
+	border-bottom: #F1F1F1 1px solid;
+	font-family: Calibri;
+	font-size: 32px;
+}
+
+h2 {
+	border-bottom: #F1F1F1 1px solid;
+	font-family: Calibri;
+	font-size: 25px;
+}
+
+h3 {
+	font-family: Calibri;
+	font-size: 22px;
+}
+
+h4 {
+	font-family: Calibri;
+	font-size: 20px;
+}
+
+h5 {
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+h6 {
+	font-family: Calibri;
+	font-size: 12px;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+p a:link {
+	font-weight: bold;
+	color: #0070C0;
+	text-decoration: none;
+}
+
+p a:hover {
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #880000;
+	color: #990000;
+	text-decoration: none;
+}
+
+p a:active {
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #880000;
+	color: #990000;
+	text-decoration: none;
+}
+
+p a:visited {
+	font-weight: bold;
+	color: #0070C0;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0 0 20px;
+}
+
+li {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+li a:link {
+	font-weight: bold;
+	color: #0070C0;
+	text-decoration: none;
+}
+
+li a:hover {
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #880000;
+	color: #990000;
+	text-decoration: none;
+}
+
+li a:active {
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #880000;
+	color: #990000;
+	text-decoration: none;
+}
+
+li a:visited {
+	font-weight: bold;
+	color: #0070C0;
+	text-decoration: none;
+}
+
+.cont {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
+}
+
+.mainbox {
+	margin-left: -15px;
+	margin-right: -15px;
+	display: flex;
+}
+
+.box {
+	padding: 10px 20px;
+}
+
+.column {
+	padding-left: 0px;
+	flex-direction: column!important;
+}
+
+.button {
+	transition: none;
+	font-family: Arial;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+.button:focus,
+.button.focus {
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.button.disabled,
+.button:disabled {
+	opacity: 0.65;
+}
+
+.button:not(:disabled):not(.disabled) {
+	cursor: pointer;
+}
+
+.button-cont {
+	padding: 8px;
+	margin-bottom: 10px;
+	background-color: #009999;
+	font-family: Arial;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.button-cont:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.button-cont:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.button-cont.disabled,
+.button-cont:disabled {
+	background-color: #999999;
+	color: #FFFFFF;
+}
+
+footer {
+	padding: 0.9rem 1rem;
+	background: linear-gradient(#FAFFD9, #F0F0F0);
+	border-top: #0E0E0E 1px solid;
+}
+
+footer p {
+	padding-bottom: 5px;
+	margin: 0;
+	float: none;
+	font-family: Arial;
+	font-size: 12px;
+	text-align: center;
+}
+
+footer nav {
+	margin-bottom: 15px;
+	float: none;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #555555;
+	text-align: center;
+}
+
+footer nav a {
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #0E0E0E;
+	text-decoration: none;
+}
+
+footer nav a:hover {
+	color: #555555;
+	text-decoration: underline;
+}
+
+footer nav a:active {
+	color: #555555;
+	text-decoration: underline;
+}
+
+footer nav a:visited {
+	color: #0E0E0E;
+	text-decoration: none;
+}
