@@ -1,5 +1,5 @@
 /*
-  JavaScript file for scale fixing in the LiteLeaf template
+  JavaScript file for scale fixing (for mobile devices) in the LiteLeaf template
   Copyright (C) Jon Wyble
   Available under the MIT License
 */
