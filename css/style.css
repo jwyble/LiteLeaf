@@ -98,15 +98,13 @@ a:link {
 
 a:hover {
 	font-weight: bold;
-	text-shadow: 1px 1px 2px #880000;
-	color: #990000;
+	color: #012255;
 	text-decoration: none;
 }
 
 a:active {
 	font-weight: bold;
-	text-shadow: 1px 1px 2px #880000;
-	color: #990000;
+	color: #012255;
 	text-decoration: none;
 }
 
@@ -163,15 +161,13 @@ p a:link {
 
 p a:hover {
 	font-weight: bold;
-	text-shadow: 1px 1px 2px #880000;
-	color: #990000;
+	color: #012255;
 	text-decoration: none;
 }
 
 p a:active {
 	font-weight: bold;
-	text-shadow: 1px 1px 2px #880000;
-	color: #990000;
+	color: #012255;
 	text-decoration: none;
 }
 
@@ -198,15 +194,13 @@ li a:link {
 
 li a:hover {
 	font-weight: bold;
-	text-shadow: 1px 1px 2px #880000;
-	color: #990000;
+	color: #012255;
 	text-decoration: none;
 }
 
 li a:active {
 	font-weight: bold;
-	text-shadow: 1px 1px 2px #880000;
-	color: #990000;
+	color: #012255;
 	text-decoration: none;
 }
 
